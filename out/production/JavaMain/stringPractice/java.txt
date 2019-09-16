@@ -1,0 +1,13 @@
+next october 2019 am gone finsh ma school in peoplentech
+max affter 2 month am gone apply companys
+doing with a team in the class
+
+
+ String fileContent = "";
+        while (scan.hasNextLine()) {
+            fileContent = fileContent.concat(scan.nextLine());
+        }
+
+        FileWriter writer = new FileWriter("\"C:\\\\Users\\\\Owner\\\\IdeaProjects\\\\JavaMain\\\\src\\\\stringPractice\\\\newfile.txt");
+        writer.write(fileContent);
+        writer.close();
